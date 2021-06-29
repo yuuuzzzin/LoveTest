@@ -15,8 +15,8 @@
         android:gravity="center"
         android:text="@string/name_title"
         android:textColor="@color/white"
-        android:textSize="32dp"
-        android:textStyle="bold"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,4 +40,5 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
